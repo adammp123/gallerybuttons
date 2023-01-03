@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imgs/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.flex-margin {
+    background-color:rgba(0, 0, 0, .7);
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 25rem;
+    width: 20rem;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+.box1 {
+    width: 20rem;
+    height: 80%;
+    background-color:rgba(0, 0, 0, .8);
+    background-image: url('imgs/img1.JPG');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+}
+
+
+.box2 {
+    width: 10rem;
+    height: 30%;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 button {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+}
+
+
+.box2 img {
+    width: 60%;
+    height: 60%;
+}
+
+.box2 img:hover {
+    width: 70%;
+    height: 70%;
+    transition: 1s;
+}
+
+.button-R2 {
+    display: none;
+}
+
+.button-L2 {
+    display: none;
+}
+
+.button-L3 {
+    display: none;
+}
