@@ -7,7 +7,6 @@ body {
 }
 
 .flex-margin {
-    background-color:rgba(0, 0, 0, .7);
     height: 40rem;
     width: 100%;
     display: flex;
@@ -16,8 +15,9 @@ body {
 }
 
 .container {
+    margin-left: .3rem;
     height: 25rem;
-    width: 20rem;
+    width: 16rem;
     display: flex;
     flex-wrap: wrap;
 
@@ -26,9 +26,9 @@ body {
 
 
 .box1 {
-    width: 20rem;
+    width: 16rem;
     height: 80%;
-    background-color:rgba(0, 0, 0, .8);
+    background-color:rgba(250, 250, 250, .0);
     background-image: url('imgs/img1.JPG');
     background-size: cover;
     background-position: center;
@@ -37,9 +37,9 @@ body {
 
 
 .box2 {
-    width: 10rem;
+    width: 8rem;
     height: 30%;
-    background-color: rgba(0, 0, 0, .8);
+    opacity: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
